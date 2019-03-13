@@ -3,7 +3,7 @@ PROGRESS STARTED
 KARYA PREGATI PAR HAI
 HONEE WALI ASUVIDHA KEE LIYE KHEED HAI
 ''')
-#from tracer import *
+from tracer import *
 
 print ('''
 DONE
@@ -11,7 +11,10 @@ DONE
 
 from start import *
 from coordinates import *
-
+'''
+ # the below part if for self experminet
+ # please enjoy
+ # i made it a comment but if you want to use is feel free
 def start_practice(): #def fxn for the user interface of this module
     turtle.speed(1)
     initial_pos=path[-1]
@@ -39,3 +42,4 @@ def start_practice(): #def fxn for the user interface of this module
                 print (i)
 
 start_practice()
+'''
